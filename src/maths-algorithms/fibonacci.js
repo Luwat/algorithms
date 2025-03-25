@@ -6,3 +6,5 @@ export const fibonacci = (n) => {
 
     return fib;
 }
+
+//Big-O = O(n) i.e. linear time complexity
