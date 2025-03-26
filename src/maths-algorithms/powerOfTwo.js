@@ -5,6 +5,8 @@ export const isPowerOfTwoBitwise = (n) => {
     return (n & (n - 1)) === 0
 }
 
+//Big-O = O(1) i.e. constant time complexity
+
 export const isPowerOfTwo = (n) => {
     if (n < 1) {
         return false;

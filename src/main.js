@@ -1,6 +1,6 @@
-import { recursiveFibonacci } from "./maths-algorithms/recursiveFibonacci";
+import { recursiveFactorial } from "./maths-algorithms/recursiveFactorial"
 
 
-console.log(recursiveFibonacci(0));
-console.log(recursiveFibonacci(1));
-console.log(recursiveFibonacci(6));
+console.log(recursiveFactorial(0));
+console.log(recursiveFactorial(1));
+console.log(recursiveFactorial(5));
