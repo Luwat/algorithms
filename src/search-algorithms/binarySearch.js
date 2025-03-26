@@ -17,3 +17,5 @@ export const binarySearch = (arr, target) => {
     }
     return -1;
 }
+
+//Big-O = O(log n) i.e. logarithmic time complexity
