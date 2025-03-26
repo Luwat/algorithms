@@ -1,16 +1,9 @@
-import { factorial } from "./maths-algorithms/factorial";
-import { fibonacci } from "./maths-algorithms/fibonacci";
-import { isPrime } from "./maths-algorithms/isPrime";
+import { isPowerOfTwo, isPowerOfTwoBitwise } from "./maths-algorithms/powerOfTwo";
 
-console.log(fibonacci(2));
-console.log(fibonacci(3));
-console.log(fibonacci(7));
-console.log(fibonacci(10));
-console.log(factorial(0));
-console.log(factorial(3));
-console.log(factorial(4));
-console.log(factorial(5));
-console.log(isPrime(1));
-console.log(isPrime(4));
-console.log(isPrime(5));
-console.log(isPrime(7));
+
+console.log(isPowerOfTwo(1));
+console.log(isPowerOfTwo(2));
+console.log(isPowerOfTwo(5));
+console.log(isPowerOfTwoBitwise(1));
+console.log(isPowerOfTwoBitwise(2));
+console.log(isPowerOfTwoBitwise(5));
