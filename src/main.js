@@ -1,7 +1,6 @@
-import { linearSearch } from "./search-algorithms/linearSearch";
+import { binarySearch } from "./search-algorithms/binarySearch";
 
 
-console.log(linearSearch([1,2,3,4,5], 3));
-console.log(linearSearch([4, -4, 7, 0, 5], 10));
-console.log(linearSearch([6, 3, -7, 2, 15], 20));
-console.log(linearSearch([8, 3, -7, 2, 6], 6));
+console.log(binarySearch([-5, 2, 4, 6, 10], 6));
+console.log(binarySearch([-5, 2, 4, 6, 10], 10));
+console.log(binarySearch([-5, 2, 4, 6, 10], 20));
