@@ -1,6 +1,5 @@
-import { recursiveFactorial } from "./maths-algorithms/recursiveFactorial"
+import { recursiveBinarySearch } from "./search-algorithms/recursiveBinarySearch";
 
-
-console.log(recursiveFactorial(0));
-console.log(recursiveFactorial(1));
-console.log(recursiveFactorial(5));
+console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10));
+console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 6));
+console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 20));
