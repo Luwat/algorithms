@@ -14,3 +14,6 @@ export const bubbleSort = (arr) => {
 
   return arr;
 };
+
+
+//Big O = O(n^2) i.e. quadratic time complexity.
