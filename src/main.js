@@ -1,4 +1,3 @@
-import { quickSort } from "./sort-algorithms/quickSort";
+import { mergeSort } from "./sort-algorithms/mergeSort";
 
-
-console.log(quickSort([15, 12, 14, 6, 4]));
+console.log(mergeSort([15, 12, 14, 6, 4]));
