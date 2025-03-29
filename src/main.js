@@ -1,3 +1,4 @@
-import { bubbleSort } from "./sort-algorithms/bubbleSort";
+import { insertionSort } from "./sort-algorithms/insertionSort";
 
-console.log(bubbleSort([15, 12, 14, 6, 4]));
+
+console.log(insertionSort([15, 12, 14, 6, 4]));
