@@ -1,4 +1,4 @@
-import { insertionSort } from "./sort-algorithms/insertionSort";
+import { quickSort } from "./sort-algorithms/quickSort";
 
 
-console.log(insertionSort([15, 12, 14, 6, 4]));
+console.log(quickSort([15, 12, 14, 6, 4]));
