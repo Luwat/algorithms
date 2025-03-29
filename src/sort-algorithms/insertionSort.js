@@ -12,3 +12,5 @@ export const insertionSort = (arr) => {
 
     return arr;
 }
+
+//Big-O = O(n^2) quadratic time complexity
