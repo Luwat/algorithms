@@ -1,3 +1,3 @@
-import { mergeSort } from "./sort-algorithms/mergeSort";
+import { cartesianProduct } from "./misc-algorithms/cartesianProduct";
 
-console.log(mergeSort([15, 12, 14, 6, 4]));
+console.log(cartesianProduct([15, 12, 14, 6, 4], [25, 23, 0]));
