@@ -1,8 +1,3 @@
-import { cartesianProduct } from "./misc-algorithms/cartesianProduct";
-import { climbingStaircase } from "./misc-algorithms/climbingStaircase";
+import { towerOfHanoi } from "./misc-algorithms/towerOfHanoi";
 
-console.log(climbingStaircase(1));
-console.log(climbingStaircase(2));
-console.log(climbingStaircase(3));
-console.log(climbingStaircase(4));
-console.log(climbingStaircase(5));
+console.log(towerOfHanoi(3, 'A', 'C', 'B'));
