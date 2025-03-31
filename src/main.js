@@ -1,3 +1,3 @@
-import { mergeSort } from "./sort-algorithms/mergeSort";
+import { towerOfHanoi } from "./misc-algorithms/towerOfHanoi";
 
-console.log(mergeSort([15, 12, 14, 6, 4]));
+console.log(towerOfHanoi(3, 'A', 'C', 'B'));
